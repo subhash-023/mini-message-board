@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Message board</title>
+</head>
+<body>
+    <div class="msg-container">
+        <% for (let i = 0; i < messages.length; i++) { %>
+            <div class="msg-box">
+                <span id="user"><%= messages[i].user %>: </span>
+                <span><%= messages[i].text %></span>
+                <p><%= messages[i].added %></p>
+            </div>
+        <% } %>
+    </div>
+    <button class="new-msg-btn"><a href="/new">New Message</a></button>
+</body>
+</html>
