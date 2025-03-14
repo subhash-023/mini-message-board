@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: greenyellow;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -43,7 +43,7 @@ button {
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: white;
+    color: greenyellow;
     border: none;
     border-radius: 5px;
     border: 1px solid white;
@@ -52,5 +52,5 @@ button {
 
 .new-msg-btn a {
     text-decoration: none;
-    color: white;
+    color: greenyellow;
 }
