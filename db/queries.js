@@ -1,4 +1,3 @@
-const { use } = require("../routes/indexRouter")
 const pool = require("./pool")
 
 async function getAllMessages() {
